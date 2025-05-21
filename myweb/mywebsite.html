@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My resume web.</title>
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: rgb(24, 24, 24);
+    }
+    .container{
+        max-width: 1000px;
+        margin:auto;
+        background:white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10 rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li{
+        border-bottom: 1px solid #ddd;
+        padding: 2px;
+        transition: background-color 0.35s;
+    }
+    ul li:hover {
+        background-color: #d9d9d9;
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .profile img{
+        width: 150px;
+
+        border-radius: 50%;
+        display: block;
+    }
+    @media (max-width: 600px){
+        .profile {
+            flex-direction: column;
+            text-align: center;
+         }
+        .profile img {
+            width: 100px;
+        }
+}
+        
+
+        
+    
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="images/jackwong.jpg" alt="我的照片">
+        </div>
+        <h1>王文傑</h1>
+        <p>前端工程師</p>
+        <h2>關於我</h2>
+        <P>目前正在轉職為前端工程師，擅長 HTML/CSS/JavaScript，對 UI 設計與互動開發有興趣。</P>
+        <h2>學歷</h2>
+        <p>臺北商業大學 企業管理系</p>
+        <h2>技能</h2>
+        <ul>
+            <li>HTML/CSS/RWD</li>
+            <li>JavaScript</li>
+            <li>React開發</li>
+            <li>Git/GitHub基礎</li>
+            <li>後端基礎</li>
+        </ul>
+        <h2>作品集</h2>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        <h2>聯絡方式</h2>
+        <p>Email:waynejackzgz@gmail.com</p>
+        <P>Phone:0984108473</P>
+    </div>
+</body>
+</html>
